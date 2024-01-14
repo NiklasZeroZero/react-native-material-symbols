@@ -1,0 +1,22 @@
+{
+  "name": "react-native-material-symbols",
+  "version": "0.0.1",
+  "description": "Material Symbols for React Native",
+  "main": "lib/index.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "build-outlined": "bash ./scripts/outlined.sh",
+    "build-rounded": "bash ./scripts/rounded.sh",
+    "build-sharp": "bash ./scripts/sharp.sh"
+  },
+  "author": "Niklas Vlach",
+  "license": "MIT",
+  "dependencies": {
+    "react-native-vector-icons": "^10.0.3"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  }
+}

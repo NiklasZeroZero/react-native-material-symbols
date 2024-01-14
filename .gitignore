@@ -1,0 +1,13 @@
+# Logs
+*.log
+
+# Runtime data
+tmp
+.fontcustom-manifest.json
+lib
+
+# Dependency directory
+node_modules
+
+# WebStorm
+.idea
