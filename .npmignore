@@ -7,4 +7,13 @@ tmp
 # Dependency directory
 node_modules
 
+# WebStorm
+.idea
+
+# Source
+bin
+src
 scripts
+templates
+
+tsconfig.json
