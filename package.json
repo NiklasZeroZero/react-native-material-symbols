@@ -10,7 +10,19 @@
     "build-rounded": "bash ./scripts/rounded.sh",
     "build-sharp": "bash ./scripts/sharp.sh"
   },
-  "author": "Niklas Vlach",
+  "author": {
+    "name": "Niklas Vlach",
+    "email": "contact@niklas-vlach.com"
+  },
+  "homepage": "https://github.com/NiklasZeroZero/react-native-material-symbols",
+  "bugs": "https://github.com/NiklasZeroZero/react-native-material-symbols/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NiklasZeroZero/react-native-material-symbols.git"
+  },
+  "keywords": [
+    "react-native"
+  ],
   "license": "MIT",
   "dependencies": {
     "react-native-vector-icons": "^10.0.3"
