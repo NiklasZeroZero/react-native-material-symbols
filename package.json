@@ -1,6 +1,6 @@
 {
   "name": "react-native-material-symbols-icons",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Material Symbols for React Native",
   "license": "MIT",
   "author": {
@@ -19,8 +19,9 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf lib",
     "build": "npm run clean && tsc",
+    "build-all": "npm run build-outlined && npm run build-rounded && npm run build-sharp",
     "build-outlined": "bash ./scripts/outlined.sh",
     "build-rounded": "bash ./scripts/rounded.sh",
     "build-sharp": "bash ./scripts/sharp.sh",
